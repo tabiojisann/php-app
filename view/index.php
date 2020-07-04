@@ -8,10 +8,11 @@
 </head>
 
 <body>
-
+  
+  <header></header>
   <div class="title">MEMO</div>
 
-  <form>
+  <form action="" method="POST">
     <ul>
       <li>
         <input type="text" placeholder="タイトルを入力">
@@ -23,8 +24,8 @@
         <button type="submit">投稿</button>
       </li>
     </ul>
-  </form>
-  
+</form>
+
 </body>
 
 </html>

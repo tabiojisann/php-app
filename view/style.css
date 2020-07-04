@@ -2,6 +2,11 @@ body {
   /* background-color: lightsteelblue; */
 }
 
+header {
+  height: 50px;
+  width: 100%;
+  background-color: mediumvioletred;
+}
 
 .title {
   height: 60px;
