@@ -10,7 +10,7 @@ if (mysqli_connect_errno()) {
 echo "データベースの接続に成功しました。\n";
 
 // id=2のレコードを削除する
-$query = "DELETE FROM article WHERE id = 1;";
+$query = "DELETE FROM article;";
 
 // クエリを実行します。
 if (mysqli_query($link, $query)) {
